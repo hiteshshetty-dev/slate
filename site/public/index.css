@@ -169,7 +169,9 @@ details > summary {
   overflow: auto;
   padding-top: 0.2em;
   position: absolute;
-  transition: width 0.2s, visibility 0.2s;
+  transition:
+    width 0.2s,
+    visibility 0.2s;
   white-space: nowrap;
   max-height: 70vh;
   z-index: 3; /* To appear above the underlay */
@@ -283,6 +285,10 @@ details > summary {
 }
 /* Loader animation */
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
