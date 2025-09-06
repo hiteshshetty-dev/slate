@@ -12,6 +12,10 @@ export default function InlinesPage() {
       <Head>
         <title>Slate Examples - Inlines</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Inline elements example in Slate.js. Create custom inline components like links, mentions, and styled text within paragraphs."
+        />
       </Head>
       <Inlines />
     </>

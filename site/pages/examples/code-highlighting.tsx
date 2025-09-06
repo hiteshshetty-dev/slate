@@ -15,6 +15,10 @@ export default function CodeHighlightingPage() {
       <Head>
         <title>Slate Examples - Code Highlighting</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Syntax highlighting example in Slate.js. Code blocks with syntax coloring in the editor."
+        />
       </Head>
       <CodeHighlighting />
     </>

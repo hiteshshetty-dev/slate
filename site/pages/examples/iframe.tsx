@@ -12,6 +12,10 @@ export default function IFramesPage() {
       <Head>
         <title>Slate Examples - Rendering in iframes</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Iframe rendering example in Slate.js."
+        />
       </Head>
       <IFrames />
     </>

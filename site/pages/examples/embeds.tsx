@@ -12,6 +12,10 @@ export default function EmbedsPage() {
       <Head>
         <title>Slate Examples - Embeds</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Embeds example in Slate.js. Learn how to handle embedded content like Vimeo videos within the rich text editor, extensible to other embed types."
+        />
       </Head>
       <Embeds />
     </>

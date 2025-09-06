@@ -12,6 +12,10 @@ export default function MentionsPage() {
       <Head>
         <title>Slate Examples - Mentions</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="User mention system example in Slate.js. Implement @mentions with user selection, and mention highlighting in the editor."
+        />
       </Head>
       <Mentions />
     </>

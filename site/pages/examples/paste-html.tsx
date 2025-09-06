@@ -13,6 +13,10 @@ export default function PasteHtmlPage() {
       <Head>
         <title>Slate Examples - Paste HTML</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="HTML paste handling example in Slate.js."
+        />
       </Head>
       <PasteHtml />
     </>

@@ -12,6 +12,10 @@ export default function CheckListsPage() {
       <Head>
         <title>Slate Examples - Checklists</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Interactive checklist example in Slate.js. Create, manage, and toggle checkboxes with proper list formatting."
+        />
       </Head>
       <CheckLists />
     </>

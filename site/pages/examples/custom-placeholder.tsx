@@ -15,6 +15,10 @@ export default function CustomPlaceholderPage() {
       <Head>
         <title>Slate Examples - Custom Placeholder</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Custom placeholder example in Slate.js."
+        />
       </Head>
       <CustomPlaceholder />
     </>

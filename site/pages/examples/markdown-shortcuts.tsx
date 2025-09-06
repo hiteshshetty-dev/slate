@@ -15,6 +15,10 @@ export default function MarkdownShortcutsPage() {
       <Head>
         <title>Slate Examples - Markdown Shortcuts</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Markdown keyboard shortcuts example in Slate.js. Use ## or headers, > for blockquotes, and other markdown syntax shortcuts."
+        />
       </Head>
       <MarkdownShortcuts />
     </>

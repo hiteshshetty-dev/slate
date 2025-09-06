@@ -12,6 +12,10 @@ export default function ForcedLayoutPage() {
       <Head>
         <title>Slate Examples - Forced Layout</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Forced layout example in Slate.js. Implement custom document structure with enforced paragraph and block formatting rules."
+        />
       </Head>
       <ForcedLayout />
     </>

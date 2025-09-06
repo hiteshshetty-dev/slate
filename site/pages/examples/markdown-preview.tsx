@@ -15,6 +15,10 @@ export default function MarkdownPreviewPage() {
       <Head>
         <title>Slate Examples - Markdown Preview</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Live markdown preview example in Slate.js. Edit markdown in the editor and see real-time rendered output with syntax highlighting."
+        />
       </Head>
       <MarkdownPreview />
     </>

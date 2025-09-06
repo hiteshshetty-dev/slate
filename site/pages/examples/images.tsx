@@ -12,6 +12,10 @@ export default function ImagesPage() {
       <Head>
         <title>Slate Examples - Images</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Image rendering example in Slate.js. Add images via toolbar or paste image URLs directly into the rich text editor for instant display."
+        />
       </Head>
       <Images />
     </>

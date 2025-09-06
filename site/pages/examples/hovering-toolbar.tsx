@@ -15,6 +15,10 @@ export default function HoveringToolbarPage() {
       <Head>
         <title>Slate Examples - Hovering Toolbar</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Hovering toolbar example in Slate.js. Context-aware toolbar that appears on text selection with formatting options and positioning."
+        />
       </Head>
       <HoveringToolbar />
     </>

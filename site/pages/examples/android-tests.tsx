@@ -12,6 +12,10 @@ export default function AndroidTestsPage() {
       <Head>
         <title>Slate Examples - Android Tests</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Android compatibility testing example in Slate.js. Test and ensure proper functionality across Android devices and browsers."
+        />
       </Head>
       <AndroidTests />
     </>

@@ -12,6 +12,10 @@ export default function PlainTextPage() {
       <Head>
         <title>Slate Examples - Plain Text</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Plain text editor example in Slate.js. Simple text editing without formatting, perfect for basic input fields and text areas."
+        />
       </Head>
       <PlainText />
     </>

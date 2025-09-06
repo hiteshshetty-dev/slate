@@ -12,6 +12,10 @@ export default function ShadowDOMPage() {
       <Head>
         <title>Slate Examples - Shadow DOM</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Shadow DOM integration example in Slate.js. Render the editor within Shadow DOM for style isolation and component encapsulation."
+        />
       </Head>
       <ShadowDOM />
     </>

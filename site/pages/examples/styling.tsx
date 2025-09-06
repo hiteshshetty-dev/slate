@@ -12,6 +12,10 @@ export default function StylingPage() {
       <Head>
         <title>Slate Examples - Styling</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Custom styling example in Slate.js. Apply custom CSS, themes, and visual formatting to the rich text editor and its components."
+        />
       </Head>
       <Styling />
     </>

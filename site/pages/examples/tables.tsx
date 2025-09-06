@@ -12,6 +12,10 @@ export default function TablesPage() {
       <Head>
         <title>Slate Examples - Tables</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Basic table rendering example in Slate.js. Learn how to display and format tables in the rich text editor with custom table elements."
+        />
       </Head>
       <Tables />
     </>

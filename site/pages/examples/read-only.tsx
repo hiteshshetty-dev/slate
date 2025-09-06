@@ -12,6 +12,10 @@ export default function ReadOnlyPage() {
       <Head>
         <title>Slate Examples - Read-only</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Read-only editor example in Slate.js. Display formatted content without editing capabilities, perfect for content preview and display."
+        />
       </Head>
       <ReadOnly />
     </>

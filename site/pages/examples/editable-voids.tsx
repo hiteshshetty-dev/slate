@@ -15,6 +15,10 @@ export default function EditableVoidsPage() {
       <Head>
         <title>Slate Examples - Editable Voids</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="Editable void elements example in Slate.js. Create custom interactive elements like buttons, inputs, and widgets within the editor."
+        />
       </Head>
       <EditableVoids />
     </>
