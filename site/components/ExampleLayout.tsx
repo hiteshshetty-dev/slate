@@ -318,8 +318,7 @@ export function ExampleLayout({
         {NON_HIDDEN_EXAMPLES.map(([n, p]) => (
           <Link
             key={p as string}
-            href="/examples/[example]"
-            as={`/examples/${p}`}
+            href={`/examples/${p}`}
             legacyBehavior
             passHref
           >
