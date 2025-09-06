@@ -1,10 +1,12 @@
 import React from 'react'
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
+import { ComponentLoader } from '../../components/ComponentLoader'
 
 // Dynamic import for the example component
 const PasteHtml = dynamic(() => import('../../examples/ts/paste-html'), {
   ssr: false,
+  loading: () => <ComponentLoader />,
 })
 
 export default function PasteHtmlPage() {

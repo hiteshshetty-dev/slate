@@ -1,11 +1,13 @@
 import React from 'react'
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
+import { ComponentLoader } from '../../components/ComponentLoader'
 
 const EditableVoids = dynamic(
   () => import('../../examples/ts/editable-voids'),
   {
     ssr: false,
+    loading: () => <ComponentLoader />,
   }
 )
 

@@ -1,9 +1,11 @@
 import React from 'react'
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
+import { ComponentLoader } from '../../components/ComponentLoader'
 
 const RichText = dynamic(() => import('../../examples/ts/richtext'), {
   ssr: false,
+  loading: () => <ComponentLoader />,
 })
 
 export default function RichTextPage() {

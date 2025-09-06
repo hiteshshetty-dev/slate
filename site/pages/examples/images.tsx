@@ -1,9 +1,11 @@
 import React from 'react'
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
+import { ComponentLoader } from '../../components/ComponentLoader'
 
 const Images = dynamic(() => import('../../examples/ts/images'), {
   ssr: false,
+  loading: () => <ComponentLoader />,
 })
 
 export default function ImagesPage() {

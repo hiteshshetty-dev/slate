@@ -1,11 +1,13 @@
 import React from 'react'
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
+import { ComponentLoader } from '../../components/ComponentLoader'
 
 const MarkdownShortcuts = dynamic(
   () => import('../../examples/ts/markdown-shortcuts'),
   {
     ssr: false,
+    loading: () => <ComponentLoader />,
   }
 )
 

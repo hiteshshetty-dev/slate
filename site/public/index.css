@@ -292,3 +292,62 @@ details > summary {
     transform: rotate(360deg);
   }
 }
+
+/* Base loading container styles */
+.slate-loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  max-width: 42em;
+}
+
+.slate-spinner {
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-top: 3px solid #667eea;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.slate-loading-text {
+  margin: 0;
+  color: #666;
+  font-weight: 300;
+}
+
+.slate-loading-spinner {
+  min-height: 150px;
+}
+
+.slate-loading-spinner .slate-spinner {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 16px;
+}
+
+.slate-loading-spinner p {
+  font-size: 14px;
+}
+
+.slate-huge-loader-container {
+  min-height: 80vh;
+}
+
+.slate-huge-loader-container .slate-spinner {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.slate-huge-title {
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  color: #333;
+}
+
+.slate-huge-subtitle {
+  margin: 8px 0 0 0;
+  font-size: 14px;
+  color: #666;
+}

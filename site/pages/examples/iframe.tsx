@@ -1,9 +1,11 @@
 import React from 'react'
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
+import { ComponentLoader } from '../../components/ComponentLoader'
 
 const IFrames = dynamic(() => import('../../examples/ts/iframe'), {
   ssr: false,
+  loading: () => <ComponentLoader />,
 })
 
 export default function IFramesPage() {
